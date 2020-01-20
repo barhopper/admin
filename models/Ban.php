@@ -1,0 +1,17 @@
+<?php
+namespace app\models;
+ 
+use Yii;
+use yii\base\NotSupportedException;
+use yii\behaviors\TimestampBehavior;
+use yii\db\ActiveRecord;
+use yii\web\IdentityInterface;
+use yii\data\ActiveDataProvider;
+
+class Ban extends ActiveRecord
+{
+public static function tableName()
+    {
+        return '{{%user_bans}}';
+    }
+}

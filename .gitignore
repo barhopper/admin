@@ -1,0 +1,9 @@
+web/images/
+.DS_Store
+.DS_Store/
+.DS_Store?
+api/v1/include/config.php
+vendor
+composer.json
+composer.phar
+.htaccess1
